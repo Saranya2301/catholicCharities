@@ -1,0 +1,273 @@
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Quicksand", sans-serif;
+  background: #ffffff;
+  box-sizing: border-box;
+    
+}
+.ccbl{
+  position: relative;
+  left: -2%;
+}
+
+.container{
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header-main .ccbl {
+  margin-top: 4px;
+  position: relative;
+  left: -2%;
+  margin: 7px  0 0;
+  margin-left: 8%;
+  margin-right: -4%;
+}
+ 
+.nav-bar {
+  display: flex;
+  cursor: pointer;
+}
+
+.menu4 {
+  margin-right: 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-left: 5px;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  font-size:19px;
+  font-weight: 800;
+  
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black; 
+}
+
+.menu li a:hover{
+  color: #b8084a;
+  cursor: pointer;
+}
+
+.menu-btn{
+  height: 40px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  width: 180px;
+  background: #b8084a;
+  border-radius: 380px;
+  margin-left: -40%;
+  padding: 30px;
+   
+}
+
+.donate_btn{
+  font-weight: 600;
+  list-style: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  left:15px;
+}
+.donate_btn a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu-btn {
+  display: flex;
+  margin-right: 5px;
+  
+}
+.special{
+  display: flex;
+  margin-right: 0;
+}
+
+
+.search-box  {
+  width: 40px; 
+  height: 40px;
+  background-color: #e8e3e3; 
+  border: none;
+  border-radius: 50%; 
+  padding: 10px; 
+  color: #7d7b7b;
+  position: relative;
+  left: 8%;
+}
+
+.search-box i{
+  color: #a79f9f;
+  position: absolute;
+  top: 22px;
+  left:22px;
+  
+}
+
+.hero-inner{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #0b6f97;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+* ::before, ::after{
+  box-sizing: border-box;
+
+}
+.hero-inner:before {
+  content: "";
+  width: 50%;
+  height: 200%;
+  background: #0b6f97;
+  border-radius: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+.hero-inner .abt-img {
+  width: 70%;
+  position: absolute;
+  top: 49%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+img{
+  height: auto;
+  vertical-align: middle;
+ }
+
+.hero-inner .hero-cont {
+  width: 100%;
+  float: left;
+  position: relative;
+  left: 5%;
+  z-index: 2;
+  padding: 70px 0;
+}
+
+.container2 {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+}
+
+.hero-inner .hero-cont .aside {
+  width: 43%;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+.hero-inner .hero-cont h1{
+  color: inherit;
+}
+
+h1{
+  font-size: 60px;
+  line-height: 80px;
+}
+ 
+
+ h1{
+  font-weight: 600;
+  font-family:"Quicksand", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  position: relative;
+  left: -5%;
+  top:-70px;
+ }
+
+.center-txt-cont {
+  width: 100%;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  overflow: hidden;
+  padding: 70px 0;
+}
+
+.container3 {
+  width: 100%;
+  max-width: 1270px;
+  padding: 0 50px;
+}
+
+.center-txt-cont .aside2 {
+  width: 100%;
+  max-width: 930px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.center-txt-cont .sub-title {
+  padding-bottom: 25px;
+}
+
+.sub-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0b6f97;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+p {
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
+
+
